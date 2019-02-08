@@ -1,7 +1,7 @@
 * Info
 this is my (and the standard layout) for the atreus keyboard.
-The .json can be best viewed and edited at [[https://config.qmk.fm/#/atreus/LAYOUT]qmk].
-More on the  [[https://atreus.technomancy.us/]keyboard] and the [[https://atreus.technomancy.us/flash][firmware]].
+The .json can be best viewed and edited at [[https://config.qmk.fm/#/atreus/LAYOUT][qmk]].
+More on the  [[https://atreus.technomancy.us/][keyboard]] and the [[https://atreus.technomancy.us/flash][firmware]].
 
 * My Layout
 is close to the standard but probably less emacs driven.
