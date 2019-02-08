@@ -1,6 +1,8 @@
 * Info
-this is my (and the standard layout) for the atreus keyboard.
+this is my (and the standard) layout for the atreus keyboard.
+
 The .json can be best viewed and edited at [[https://config.qmk.fm/#/atreus/LAYOUT][qmk]].
+
 More on the  [[https://atreus.technomancy.us/][keyboard]] and the [[https://atreus.technomancy.us/flash][firmware]].
 
 * My Layout
@@ -20,8 +22,8 @@ fn layer:
 
 =L2= layer
 
- :  insert home    ↑    end  pgup     ||       ↑     F7    F8    F9   F10
- :    del   ←      ↓     →   pgdn     ||       ↓     F4    F5    F6   F11
- :         Vol+              reset    ||             F1    F2    F3   F12
- :         Vol- super shift bksp ctrl || alt space   L0             
+ :  insert home    ↑    end  pgup      ||         ↑     F7    F8    F9   F10
+ :    del   ←      ↓     →   pgdn      ||         ↓     F4    F5    F6   F11
+ :         Vol+              reset     ||               F1    F2    F3   F12
+ :         Vol- ctrl  shift super del  || enter space   L0             
 
