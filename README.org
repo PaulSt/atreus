@@ -5,7 +5,7 @@ The .json can be best viewed and edited at [[https://config.qmk.fm/#/atreus/LAYO
 
 More on the  [[https://atreus.technomancy.us/][keyboard]] and the [[https://atreus.technomancy.us/flash][firmware]].
 
-* My Layout
+** My Layout
 is close to the standard but probably less emacs driven.
 
  :    q     w     e     r     t        ||        y     u     i     o    p
@@ -15,9 +15,9 @@ is close to the standard but probably less emacs driven.
 
 fn layer:
 
- :    &    @     up     {    }         ||       pgup    7     8     9    *
- :    #  left   down  right  ^         ||       pgdn    4     5     6    +
- :    [    ]      (     )    $         ||         `     1     2     3    \
+ :    !    @     up     {    }         ||       pgup    7     8     9    *
+ :    ^  left   down  right  $         ||       pgdn    4     5     6    +
+ :    [    ]      (     )    &         ||         `     1     2     3    \
  :   L2  insert ctrl  shift super del  || enter space   fn    .     0    =
 
 =L2= layer
@@ -27,7 +27,7 @@ fn layer:
  :         Vol+              reset     ||               F1    F2    F3   F12
  :         Vol- ctrl  shift super del  || enter space   L0             
 
-* ente
+** ente
 this layout only has the enter alt switch and the following adjustments to
 the fn layer:
 
@@ -36,6 +36,6 @@ the fn layer:
  :    [    ]      (     )    &         ||         `     1     2     3    \
  :   L2  insert super  shift del ctrl  || enter space   fn    .     0    =
 
-* uploading
+** uploading
 just a reminder of the upload command:
  :  sudo avrdude -p atmega32u4 -c avr109 -U flash:w:filename.hex -P /dev/ttyACM0
