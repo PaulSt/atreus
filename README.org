@@ -37,5 +37,7 @@ the fn layer:
  :   L2  insert super  shift del ctrl  || enter space   fn    .     0    =
 
 ** uploading
-just a reminder of the upload command:
+press reset on the keyboard located at 
+ :  super + L2 + b
+then use upload command:
  :  sudo avrdude -p atmega32u4 -c avr109 -U flash:w:filename.hex -P /dev/ttyACM0
