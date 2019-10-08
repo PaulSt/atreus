@@ -28,7 +28,7 @@ fn layer:
  :         Vol- ctrl  shift super bksp || enter space   L0             
 
 ** ente
-this layout is almost standard (see below), but has the enter alt switch and the following adjustments to
+this layout is almost default (see below), but has the enter alt switch and the following adjustments to
 the fn layer:
 
  :    !    @     up     {    }         ||       pgup    7     8     9    *
@@ -36,8 +36,7 @@ the fn layer:
  :    [    ]      (     )    &         ||         `     1     2     3    \
  :   L2  insert super  shift del ctrl  || enter space   fn    .     0    =
  
- ** Standard
-is close to the standard but probably less emacs driven.
+** Default
 
  :    q     w     e     r     t        ||        y     u     i     o    p
  :    a     s     d     f     g        ||        h     j     k     l    ;
