@@ -15,26 +15,48 @@ is close to the standard but probably less emacs driven.
 
 fn layer:
 
- :    !    @     up     {    }         ||       pgup    7     8     9    *
- :    ^  left   down  right  $         ||       pgdn    4     5     6    +
- :    [    ]      (     )    &         ||         `     1     2     3    \
- :   L2  insert ctrl  shift super del  || enter space   fn    .     0    =
+ :    @     7     8     9    *         ||        ^     {     }     [    ]
+ :    &     4     5     6    +         ||       left  down  up   right  ! 
+ :    =     1     2     3    \         ||        $     (     )     ~    \   
+ :    L2    `     0  shift super  bksp || enter space  fn    .    del  insert
 
 =L2= layer
 
  :  insert home    ↑    end  pgup      ||         ↑     F7    F8    F9   F10
  :    del   ←      ↓     →   pgdn      ||         ↓     F4    F5    F6   F11
  :         Vol+              reset     ||               F1    F2    F3   F12
- :         Vol- ctrl  shift super del  || enter space   L0             
+ :         Vol- ctrl  shift super bksp || enter space   L0             
 
 ** ente
-this layout only has the enter alt switch and the following adjustments to
+this layout is almost standard (see below), but has the enter alt switch and the following adjustments to
 the fn layer:
 
  :    !    @     up     {    }         ||       pgup    7     8     9    *
  :    ^  left   down  right  $         ||       pgdn    4     5     6    +
  :    [    ]      (     )    &         ||         `     1     2     3    \
  :   L2  insert super  shift del ctrl  || enter space   fn    .     0    =
+ 
+ ** Standard
+is close to the standard but probably less emacs driven.
+
+ :    q     w     e     r     t        ||        y     u     i     o    p
+ :    a     s     d     f     g        ||        h     j     k     l    ;
+ :    z     x     c     v     b        ||        n     m     ,     .    /
+ :   esc   tab  super  shift bksp ctrl || alt   space  fn    -     '  enter
+
+fn layer:
+
+ :    !    @     up     {    }         ||       pgup    7     8     9    *
+ :    ^  left   down  right  $         ||       pgdn    4     5     6    +
+ :    [    ]      (     )    &         ||         `     1     2     3    \
+ :   L2  insert ctrl  shift bksp ctrl  || alt   space   fn    .     0    =
+
+=L2= layer
+
+ :  insert home    ↑    end  pgup      ||         ↑     F7    F8    F9   F10
+ :    del   ←      ↓     →   pgdn      ||         ↓     F4    F5    F6   F11
+ :         Vol+              reset     ||               F1    F2    F3   F12
+ :         Vol- ctrl  shift  bksp ctrl || alt   space   L0             
 
 ** uploading
 press reset on the keyboard located at 
